@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="50dp"
+            tools:context=".MainActivity">
+
+
+            <Button
+                android:id="@+id/jobsToday"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:onClick="jobsToday"
+                android:text="@string/jobsToday"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bankJobs"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:onClick="bankJobs"
+                android:text="@string/bankJobs"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/govtJobs"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:onClick="govtJobs"
+                android:text="@string/govtJobs"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/ngoJobs"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:onClick="ngoJobs"
+                android:text="@string/ngoJobs"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/newsPaper"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:onClick="newsPaper"
+                android:text="@string/newsPaper"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/teletalk"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:onClick="teletalk"
+                android:text="@string/teletalk"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/result"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:onClick="result"
+                android:text="@string/result"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

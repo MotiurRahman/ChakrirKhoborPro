@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Chakrir Khobor</string>
+    <string name="jobsToday">Jobs Today</string>
+    <string name="bankJobs">Bank Jobs</string>
+    <string name="govtJobs">Govt Jobs</string>
+    <string name="ngoJobs">Ngo Jobs</string>
+    <string name="newsPaper">News Paper Jobs</string>
+    <string name="teletalk">Teletalk Apply</string>
+    <string name="result">Exam Result</string>
+
+    <string name="jobsToday_url">"https://chakrirkhobor.net"</string>
+    <string name="bankJobs_url">"https://chakrirkhobor.net/category/bank-jobs-circular"</string>
+    <string name="govtJobs_url">"https://chakrirkhobor.net/category/govt-jobs"</string>
+    <string name="ngoJobs_url">"https://chakrirkhobor.net/category/ngo-development"</string>
+    <string name="newsPaper_url">"https://chakrirkhobor.net/category/news-paper-job"</string>
+    <string name="teletalk_url">"https://chakrirkhobor.net/category/teletalk-application-from"</string>
+    <string name="result_url">"https://chakrirkhobor.net/category/exam-result"</string>
+</resources>
